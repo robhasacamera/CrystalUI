@@ -16,4 +16,5 @@ dependencies: [
 
 1. Add addition views and utilities
 2. Add more comprehensive documention
-3. Create a documentation portal
+3. Create Sample App
+4. Create a documentation portal

@@ -28,7 +28,7 @@ import CUIPreviewKit
 import SwiftUI
 
 // TODO: Need to think through this one a bit. How do I make it easy to display/dismiss the window? Maybe this component is just a base for other components, could use it to build floating window. Or a window presented from an anchor. 
-// TODO: Add some detailed documentation here on how the window is styled
+/// A stylized window that displays some content and provides a control for closing.
 public struct CUIWindow<Icon, Content>: _CUIStylizedWindow where Icon: View, Content: View {
     public typealias Control = CUIWindow<Icon, Content>
     public typealias Window = CUIWindow<Icon, Content>
@@ -115,7 +115,7 @@ struct CUIWindow_Previews: PreviewProvider {
                                 height: 10
                             )
                     } content: {
-                        Text(LoremIpsum.words(8))
+                        Text(CUILoremIpsum.words(8))
                             .padding()
                             .frame(width: 200)
                     } closeAction: {
@@ -125,7 +125,7 @@ struct CUIWindow_Previews: PreviewProvider {
 
                 CUICaptionedView("SF Symbol Init") {
                     CUIWindow(sfSymbolName: "doc.fill") {
-                        Text(LoremIpsum.words(8))
+                        Text(CUILoremIpsum.words(8))
                             .padding()
                             .frame(width: 200)
                     } closeAction: {
@@ -135,7 +135,7 @@ struct CUIWindow_Previews: PreviewProvider {
 
                 CUICaptionedView("No Header Init") {
                     CUIWindow {
-                        Text(LoremIpsum.words(8))
+                        Text(CUILoremIpsum.words(8))
                             .padding()
                             .frame(width: 200)
                     }
@@ -143,7 +143,7 @@ struct CUIWindow_Previews: PreviewProvider {
 
                 CUICaptionedView(".title(...) & .subtitle(...)") {
                     CUIWindow(sfSymbolName: "doc.fill") {
-                        Text(LoremIpsum.words(8))
+                        Text(CUILoremIpsum.words(8))
                             .padding()
                             .frame(width: 200)
                     }

@@ -16,7 +16,7 @@ let package = Package(
         .package(
             name: "CUIExpandableButton",
             url: "https://github.com/robhasacamera/CUIExpandableButton.git",
-            from: "0.13.0"
+            from: "0.14.0"
         )
     ],
     targets: [
