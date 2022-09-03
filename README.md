@@ -2,6 +2,8 @@
 
 Crystal UI is a collection of SwiftUI Views and utilities meant to give a cohesive yet customizable UI for any app.
 
+[![package build workflow](https://github.com/robhasacamera/CUIExpandableButton/actions/workflows/package.yml/badge.svg)](https://github.com/robhasacamera/CUIExpandableButton/actions/workflows/package.yml)
+
 ## Installation
 
 Crystal UI supports Swift Package Manager. To use it the following to your `Package.swift` file:
