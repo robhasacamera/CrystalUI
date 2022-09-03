@@ -8,7 +8,7 @@ Crystal UI supports Swift Package Manager. To use it the following to your `Pack
 
 ```
 dependencies: [
-    .package(name: "CUIExpandableButton", url: "https://github.com/robhasacamera/CUIExpandableButton.git", from: "0.1.0")
+    .package(name: "CUIExpandableButton", url: "https://github.com/robhasacamera/CrystalUI.git", from: "0.1.1")
 ],
 ```
 
