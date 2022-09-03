@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "cuiexpandablebutton",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/robhasacamera/CUIExpandableButton.git",
+      "state" : {
+        "revision" : "4b4d2889b1862d55dd6395538093390aed2f66e0",
+        "version" : "0.13.0"
+      }
+    },
+    {
+      "identity" : "cuipreviewkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/robhasacamera/CUIPreviewKit.git",
+      "state" : {
+        "revision" : "29e38bf9008919c63e15c84637612e80a47bd62a",
+        "version" : "0.1.2"
+      }
+    },
+    {
+      "identity" : "cuiseparator",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/robhasacamera/CUISeparator.git",
+      "state" : {
+        "revision" : "31d880c07986b27f1b3edfd8c32d374c4bac1b91",
+        "version" : "0.3.0"
+      }
+    }
+  ],
+  "version" : 2
+}
